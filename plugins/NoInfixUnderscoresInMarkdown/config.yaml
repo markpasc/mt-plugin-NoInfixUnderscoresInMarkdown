@@ -1,0 +1,11 @@
+id:          NoInfixUnderscoresInMarkdown
+key:         NoInfixUnderscoresInMarkdown
+name:        No Infix Underscores in Markdown
+description: Prevents Markdown from turning underscores inside words into emphasis.
+version:     1.0
+author_name: Mark Paschal
+author_link: http://markpasc.org/mark/
+
+callbacks:
+    init_request: $NoInfixUnderscoresInMarkdown::NoInfixUnderscoresInMarkdown::setup
+
